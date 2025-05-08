@@ -1,0 +1,12 @@
+JavaScript Number Methods:
+--------------------------
+
+1. toString()
+2. toExponential() => could not understand
+3. toFixed()
+4. Number()
+5. parseInt()
+6. parseFloat()
+
+all about Number Methods:
+https://www.w3schools.com/jsref/jsref_obj_number.asp

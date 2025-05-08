@@ -1,0 +1,8 @@
+Escape Characters:
+------------------
+
+let text = "I am used to reading \"Books\" for productivity";
+console.log(text);
+let passion = 'My passion is Books\\Food\\Coding\\Exersise';
+console.log(passion);
+

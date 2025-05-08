@@ -1,0 +1,23 @@
+Array Sort Methods:
+-------------------
+
+1. sort()
+2. reverse()
+
+Number Sorting Process in Array:
+--------------------------------
+
+Ascending order: (a-b)
+Descending order: (b-a)
+
+const points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){
+  return a - b
+});
+
+Imp:
+----
+
+Posetive/True = Swap
+Negative/False = Same
+

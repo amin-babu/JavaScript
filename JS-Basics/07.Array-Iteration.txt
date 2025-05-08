@@ -1,0 +1,40 @@
+Array Iteration:
+----------------
+
+1. forEach() => The forEach() method calls a function (a callback function) once for each array element.
+
+2. map() => The map() method creates a new array by performing a function on each array element.
+
+3. filter() => The filter() method creates a new array based on True condition
+
+4. reduce() => It shows only one value, the total's value is array's first element if the value don't set.
+
+5. reduceRight() => It same as reduce, just work from right side
+
+6. every() => If one condition is false, it will show false. To be true, every condition will have to be true.
+
+6. some() => If one condition is true, it will show true. To be false, every condition will have to be false.
+
+7. indexOf() => This mothod works for checking the position of the element and shows the index  number of the element.
+
+8. includes() => it checks any element is available or not.
+
+9. find() => This method shows only one number based  on condition. it works from from left. if first element condition is false, it will go to the next one.
+
+
+
+
+
+Best Example for practising:
+----------------------------
+
+
+
+//checking duplicate and uniques numbers
+
+const numbers = [1, 2, 4, 4, 6, 8, 10, 8, 12, 13, 19];
+
+const duplicates = numbers.filter(function(value, index, array){
+  return array.indexOf(value) !== index
+  //return array.indexOf(value) === index
+});

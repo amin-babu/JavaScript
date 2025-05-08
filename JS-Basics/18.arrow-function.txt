@@ -1,0 +1,35 @@
+Difference Between Regular Function and Arrow Function:
+-------------------------------------------------------
+
+
+1️⃣ Regular functions (function keyword):
+this refers to the object where the function is called.
+Works correctly inside objects.
+
+
+2️⃣ Arrow functions (=> syntax):
+DO NOT have their own this.
+Inherit this from the surrounding (outer) scope, which is usually global (or the parent function).
+
+💡 "Regular functions take this from the calling object, but arrow functions take this from where they were created."
+
+👉 Regular function? → this works from the object.
+👉 Arrow function? → this comes from outside the object.
+
+
+
+✅ Use Regular Functions When:
+✔ You need this to refer to the object (e.g., object methods).
+✔ You need to access the arguments object.
+✔ You need to use the function as a constructor with new.
+
+✅ Use Arrow Functions When:
+✔ You want to inherit this from the surrounding scope (e.g., inside a setTimeout).
+✔ You want shorter, cleaner syntax (especially for one-liner functions).
+✔ You don’t need an arguments object.
+
+
+
+Key Difference Recap:
+Regular function: this depends on how the function is called (object or global).
+Arrow function: this is inherited from where the function is defined, which is usually the global scope

@@ -1,0 +1,27 @@
+JavaScript Variables:
+---------------------
+
+var, let, const
+---------------
+
+
+# Before ES6 JS provided var keyword and only has Global and Function scope. From ES6 JS introduced let and const keyword. They prodive block scope in JavaScript.
+
+
+Var:
+----
+=> Var can redeclare and reassign. Var prodives Global and Function scope. Var is hoisted and assign undefined data. 
+
+
+Let:
+----
+=> The let variable can not be redeclared, But can reassign. let prodives block scope and also prodives function scope. Let is hoisted but doesn't define any data.
+
+
+Const:
+------
+=> Const can not redeclare and reassign. Must be assigned after declaration. Const prodives block scope and also prodives function scope. It is used for array, objects, function, regexp. Let is hoisted but doesn't define any data.
+
+
+
+

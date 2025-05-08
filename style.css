@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  font-size: 100%;
+  /* width: 80%; */
+  padding: 30px 20px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: .5s;
+  text-align: center;
+}
+
+h1:hover{
+  background-color: #fff;
+  color: black;
+}
+
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

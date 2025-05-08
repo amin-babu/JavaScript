@@ -1,0 +1,24 @@
+=> A Map holds key-value pairs where the keys can be any datatype.
+=> A Map is look like an Object 
+=> A Set is look like an Array
+
+Map Methods:
+------------
+
+1. set() => it is used for adding key value in a Map
+2. get() => it is used for getting the value of the key
+3. delete() => for removing a specific key
+4. has() => has or not, true or false
+
+
+Map Syntax:
+-----------
+
+const fruits = new Map([
+  ['apple', 500],
+  ['bananna', 300],
+  ['orange', 100],
+  [620, 100],
+]);
+
+console.log(fruits);

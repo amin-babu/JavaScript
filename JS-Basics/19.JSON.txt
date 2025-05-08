@@ -1,0 +1,9 @@
+JSON stands for JavaScript Object Notation
+
+# The JSON syntax is derived from JavaScript object notation syntax, but the JSON format is text only. Code for reading and generating JSON data can be written in any programming language.
+
+Converting a JSON Text to a JavaScript Object:
+
+1. JSON.parse() => convert the string into a JavaScript object.
+
+2. JSON.stringify() => convert the object into a JavaScript string or JSON.

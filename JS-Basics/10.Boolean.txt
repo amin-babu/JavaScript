@@ -1,0 +1,12 @@
+Booleans Data Type:
+-------------------
+
+JavaScript False Values:
+
+1. 0 (zero)
+2. -0 (minus zero)
+3. "" (empty string)
+4. undefined
+5. null
+6. NaN
+7. false

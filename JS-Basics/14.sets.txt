@@ -1,0 +1,19 @@
+=> A JavaScript Set is a collection of unique values.
+
+=> Each value can only occur once in a Set.
+
+=> The values can be of any type, primitive values or objects.
+
+Set() Method:
+-------------
+
+1. add() => to add element in a Set
+2. forEach() => will be executed a function for each set element
+3. value() => will be given an iterable object
+
+
+Set Syntax:
+-----------
+
+const latters = new Set(['a', 'b', 'd', 'a', 'c', 'd']);
+=> It looks like an Array.

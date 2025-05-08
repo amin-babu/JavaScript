@@ -1,0 +1,6 @@
+JS Object is Mutable Data Type. 
+
+
+Mutable: Can be changed after creation. It doesn't change the whole value. It doesn't take new space in memory. (Object, Array) => should use const in variables
+
+Immutable: Cannot be changed after creation. It changes the whole value. It takes new memory after reassigining the value. (Number, String) => should use let in variables

@@ -1,0 +1,20 @@
+For in loop Syntax:
+
+const person = {fname:"John", lname:"Doe", age:25};
+
+for(let x in person){
+  console.log(x,':',person[x]);
+};
+
+=> for in loop does not maintain the order
+=> for in loop should be used in Objects
+=> for in loop should not be used in Arrays if the index order is important
+=> But only for loop can be used in an Array
+
+
+
+Difference for of & in:
+-----------------------
+
+=> for of loop executes in iterable objects(order mantain) like Arrays, Strings
+=> for in loop executes in normal JS objects

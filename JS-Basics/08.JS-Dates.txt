@@ -1,0 +1,43 @@
+JavaScript Dates:
+-----------------
+
+new Date()
+new Date(date string)
+
+new Date(year,month)
+new Date(year,month,day)
+new Date(year,month,day,hours)
+new Date(year,month,day,hours,minutes)
+new Date(year,month,day,hours,minutes,seconds)
+new Date(year,month,day,hours,minutes,seconds,ms)
+
+new Date(milliseconds)
+
+
+
+
+
+
+
+
+JavaScript Get Date Methods:
+----------------------------
+
+1. getFullYear()
+2. getMonth()
+3. getDate()
+4. getDay()
+5. getHours()
+6. getTime()
+
+
+
+
+
+
+
+JavaScript Set Date Methods:
+----------------------------
+
+7. setFullYear()
+https://www.w3schools.com/js/js_date_methods_set.asp

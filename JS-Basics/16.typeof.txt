@@ -1,0 +1,17 @@
+=> In JavaScript typeof is a operator like +,-. It is not a keyword or variable
+
+Checking Function of any Data:
+------------------------------
+
+function isArray(myArray){
+  console.log(myArray.constructor.toString().indexOf('Array') > -1);
+};
+
+isArray([1, 2, 3]);
+
+=> undefined -> undefined means variable declared but did not assign any value. value did not assign thats why it is a default value and undefined is also a data type
+
+=> "" empty -> Empty means its a blank and string data type
+
+=> null -> In JS null is "nothing". It is supposed to be something that doesn't exist. Unfortunately, in JavaScript, the data type of null is an object.
+

@@ -1,0 +1,9 @@
+The For Of Loop:
+
+The JavaScript for of statement loops through the values of an iterable object.
+
+It lets you loop over iterable data structures such as Arrays, Strings, Maps, NodeLists, and more.
+
+=> In iterable objects the order is important
+=> for of loop executes in iterable objects(order mantain) like Arrays, Strings
+=> for in loop executes in normal JS objects

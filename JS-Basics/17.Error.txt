@@ -1,0 +1,33 @@
+JavaScript Error Handling - Basics
+1️⃣ try...catch for Errors
+
+Example:
+--------
+
+try {
+    let x = 10;
+    console.log(x + y); // Error: `y` is not defined
+} catch (error) {
+    console.log(error.message); // Handles the error
+};
+
+
+2️⃣ throw for Custom Errors
+
+Example:
+--------
+
+function checkNumber(num) {
+    if (num < 0) {
+        throw new Error("Invalid input"); // Best practice
+    }
+    return "Valid number";
+};
+
+try {
+    console.log(checkNumber(-5)); // Will throw an error
+} catch (error) {
+    console.log(error.message);
+};
+
+✅ Always use new Error("message") for better debugging.
