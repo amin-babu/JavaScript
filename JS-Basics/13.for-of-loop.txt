@@ -6,4 +6,5 @@ It lets you loop over iterable data structures such as Arrays, Strings, Maps, No
 
 => In iterable objects the order is important
 => for of loop executes in iterable objects(order mantain) like Arrays, Strings
+=> for of loop does NOT work on an object directly.
 => for in loop executes in normal JS objects

@@ -1,7 +1,7 @@
 JavaScript String Methods:
 --------------------------
 
-#When JS see a string variable like a.lengh, JS take it as new String()
+# When JS see a string variable like a.lengh, JS take it as new String()
 
 JS All Methods:
 ---------------

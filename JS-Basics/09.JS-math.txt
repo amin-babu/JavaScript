@@ -2,15 +2,15 @@ Math Methods:
 -------------
 
 1. Math.PI
-2. Math.round()
-3. Math.ceil()
-4. Math.floor()
-5. Math.trunc()
-6. Math.sign()
-7. Math.pow()
-8. Math.sqrt()
-9. Math.abs()
-10. Math.min()
-11. Math.max()
-12. Math.random()
+2. Math.round() - Returns x rounded to its nearest integer
+3. Math.ceil() - Returns x rounded up to its nearest integer
+4. Math.floor() - Returns x rounded down to its nearest integer
+5. Math.trunc() - Returns the integer part of x
+6. Math.sign() - Returns 1 if x is positive, -1 if negative, and 0 if zero.
+7. Math.pow() - Returns the value of x to the power of y
+8. Math.sqrt() - Returns the square root of x
+9. Math.abs() - Returns the absolute (positive) value of x
+10. Math.min() - Returns the smallest value from a list of numbers.
+11. Math.max() - Returns the largest value from a list of numbers.
+12. Math.random() - Returns a random decimal number between 0 and 1
 

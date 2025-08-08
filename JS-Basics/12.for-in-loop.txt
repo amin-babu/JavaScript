@@ -13,8 +13,8 @@ for(let x in person){
 
 
 
-Difference for of & in:
------------------------
+Difference for of & for in:
+---------------------------
 
 => for of loop executes in iterable objects(order mantain) like Arrays, Strings
 => for in loop executes in normal JS objects
