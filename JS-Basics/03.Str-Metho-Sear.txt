@@ -1,0 +1,51 @@
+JavaScript String Methods & String Search:
+------------------------------------------
+
+# When JS see a string variable like a.lengh, JS take it as new String()
+
+JS String Methods:
+------------------
+
+1. slice(start, end) -> returns from start index to before end index
+
+2. substring(start, end) -> its like slice(), but can’t take negative indexes
+
+3. substr(start, length) -> returns from start index and takes length characters
+
+4. replace(from, to) -> returns a new string with the first match of from replaced by to
+
+5. toUpperCase() -> returns string with all letters in capital letters
+
+6. toLowerCase() -> returns string with all letters in small letters
+
+7. concat() -> returns a new string by joining two or more strings
+
+8. trim() -> removes spaces from the start and end of a string
+
+9. padStart(v, p) -> adds p to the start until string length is v
+
+10. padEnd(v, p) -> adds p to the end until string length is v
+
+11. charAt(index) -> returns one character at index; empty if index is negative or invalid
+
+12. split(separator) -> breaks string into parts by separator and returns an array
+
+
+
+
+
+JS String Search:
+-----------------
+
+13. indexOf(value) -> returns the position of the first match of value; -1 if not found
+
+14. lastIndexOf(value) -> returns the position of the last match of value; -1 if not found
+
+15. includes(value) -> returns true if string contains value, otherwise false
+
+16. startsWith(value) -> returns true if string begins with value, else false
+
+17. endsWith(value) -> returns true if string ends with value, else false
+
+# All these methods can take a second parameter that controls where to start or end the search/check in the string.
+

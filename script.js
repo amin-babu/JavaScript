@@ -1,4 +1,3 @@
-function addition(a, b){
-  console.log(a + b)
-}
-addition(7, 6);
+let text = "Please locate where 'locate' occurs!";
+
+console.log(text.endsWith(`locate`, 13));
