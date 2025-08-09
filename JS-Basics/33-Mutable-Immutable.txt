@@ -1,0 +1,38 @@
+JavaScript Data Types: Primitive vs Reference
+---------------------------------------------
+
+Memory Areas:
+-------------
+
+  Stack:
+   - Stores simple data directly
+   - Uses Last In First Out (LIFO) principle
+   - Fast and small memory
+
+  Heap:
+   - Stores complex data like objects and arrays
+   - Larger and slower memory
+
+
+Primitive Data Types:
+---------------------
+ - Examples include: number, string, boolean, null, undefined, symbol, bigint
+ - Stored directly in the stack
+ - Immutable: the actual value cannot be changed after creation
+ - When you change the variable, JavaScript creates new memory in the     stack for the new value
+
+
+Reference Data Types:
+---------------------
+ - Examples include: objects, arrays, functions
+ - The variable itself is stored in the stack as a pointer (an address)
+ - The actual data is stored in the heap
+ - Mutable: the data inside the heap can be changed without creating new memory
+
+
+Main Differences:
+-----------------
+ - Primitive values are stored and accessed directly from the stack
+ - Reference variables store a pointer in the stack, which points to data in the heap
+ - Primitive data is immutable: Meaning the value cannot be changed; changing a variable means creating new memory
+ - Reference data is mutable: Meaning the value inside the heap can be changed without creating new memory
