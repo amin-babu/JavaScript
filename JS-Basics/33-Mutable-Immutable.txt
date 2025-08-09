@@ -19,7 +19,7 @@ Primitive Data Types:
  - Examples include: number, string, boolean, null, undefined, symbol, bigint
  - Stored directly in the stack
  - Immutable: the actual value cannot be changed after creation
- - When you change the variable, JavaScript creates new memory in the     stack for the new value
+ - When you change the variable, JavaScript creates new memory in the stack for the new value
 
 
 Reference Data Types:
