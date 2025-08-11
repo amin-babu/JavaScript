@@ -1,12 +1,23 @@
 JavaScript Array Methods:
 -------------------------
 
-1. toString()
-2. join()
-3. pop()
-4. push()
-5. shift()
-6. unshift()
-7. splice()
-8. concat()
+1. toString() -> returns anything into a string (text)
+
+2. join(separator) -> combines all array items into one string, separated by the given separator (default is comma)
+
+3. push(item) -> adds item(s) to the end of an array and returns the new length
+
+4. pop() -> removes the last item from an array and returns that item
+
+5. shift() -> removes the first item from an array and returns it
+
+6. unshift(item) -> adds item(s) to the start of an array and returns the new length
+
+7. splice(start, deleteCount, item1, item2, ...) -> changes an array by removing deleteCount items from start index and optionally adds new items (item1, item2, etc.) in their place; returns the removed items as a new array
+
+8. concat(arraysOrValues) -> joins two or more arrays or values into a new array without changing the originals
+
+9. slice(start, end) -> returns a new array (or string) with elements from the start index up to but not including the end index, without changing the original
+
+
 
