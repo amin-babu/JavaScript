@@ -1,25 +1,25 @@
 Array Iteration:
 ----------------
 
-1. forEach() => The forEach() method calls a function (a callback function) once for each array element.
+1. forEach(callback) -> runs the given function once for every item in the array, in order, without returning a new array. The callback function takes (value, index, array) as parameters.
 
-2. map() => The map() method creates a new array by performing a function on each array element.
+2. map(callback) -> runs the given function for every item in the array and returns a new array with the results, without changing the original array. The callback function takes (value, index, array) as parameters.
 
-3. filter() => The filter() method creates a new array based on True condition
+3. filter(callback) -> keeps only the items that match the condition and returns them in a new array without changing the original array. The callback function takes (value, index, array) as parameters.
 
-4. reduce() => It shows only one value, the total's value is array's first element if the value don't set.
+4. reduce() => will have to learn again
 
-5. reduceRight() => It same as reduce, just work from right side
+5. reduceRight() => will have to learn again
 
-6. every() => If one condition is false, it will show false. To be true, every condition will have to be true.
+6. every(callback) -> checks if all items satisfy the condition and returns true or false without changing the original array. The callback function takes (value, index, array) as parameters.
 
-6. some() => If one condition is true, it will show true. To be false, every condition will have to be false.
+6. some(callback) -> checks if at least one item satisfies the condition and returns true or false without changing the original array. The callback function takes (value, index, array) as parameters
 
-7. indexOf() => This mothod works for checking the position of the element and shows the index  number of the element.
+7. indexOf(value, fromIndex) → returns the first index at which the specified value is found in the array, or -1 if it is not present. It does not change the original array. fromIndex is optional and specifies the index to start the search from.
 
-8. includes() => it checks any element is available or not.
+8. includes(value, fromIndex) → checks if the array contains the specified value and returns true or false without changing the original array. fromIndex is optional and specifies the index to start the search from.
 
-9. find() => This method shows only one number based  on condition. it works from from left. if first element condition is false, it will go to the next one.
+9. find(callback) → returns the first element in the array that meets the condition, or undefined if no element matches. It does not change the original array. The callback function takes (value, index, array) as parameters.
 
 
 

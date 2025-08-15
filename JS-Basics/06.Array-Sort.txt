@@ -1,8 +1,16 @@
 Array Sort Methods:
 -------------------
 
-1. sort()
-2. reverse()
+1. sort() -> orders array items (string by default, number with compare function) and changes the original array
+
+2. reverse() -> puts the array items in the opposite order and changes the original array
+
+# Both Methods return the original array after modification
+
+3. toSorted() -> returns a new sorted array without changing the original array, unlike sort().
+
+4. toReversed() returns a new array with elements in reverse order without modifying the original array, unlike reverse()
+
 
 Number Sorting Process in Array:
 --------------------------------
@@ -20,4 +28,33 @@ Imp:
 
 Posetive/True = Swap
 Negative/False = Same
+if result = same
+
+
+
+Sorting an Array in Random Order:
+---------------------------------
+
+const points = [40, 100, 1, 5, 25, 10];
+points.sort(function (a, b) {
+  return 0.5 - Math.random();
+});
+console.log(points);
+
+
+
+What I Learned from Array Sort Chapter:
+---------------------------------------
+
+  I can sort any array of strings or text using sort() or toSorted().
+   - sort() changes (mutates) the original array.
+   - toSorted() returns a new sorted array without changing the original.
+
+  I can sort numeric values in ascending or descending order by providing a comparison function to both sort() and toSorted().
+
+  I can reverse an array using reverse() or toReversed().
+   - reverse() mutates the original array.
+   - toReversed() returns a new reversed array without changing the original.
+
+  I can shuffle (randomly sort) an array using Math.random() inside a comparison function (or other shuffling algorithms)
 
