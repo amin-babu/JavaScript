@@ -7,9 +7,9 @@ Array Iteration:
 
 3. filter(callback) -> keeps only the items that match the condition and returns them in a new array without changing the original array. The callback function takes (value, index, array) as parameters.
 
-4. reduce() => will have to learn again
+4. reduce(callback, initialValue) → goes through the array and combines all items into a single result. The callback function runs for each item and takes (total, value, index, array) as parameters.
 
-5. reduceRight() => will have to learn again
+5. reduceRight() -> Its same to same reduce() method. reduce() method works from left and reduceRight() works from right.
 
 6. every(callback) -> checks if all items satisfy the condition and returns true or false without changing the original array. The callback function takes (value, index, array) as parameters.
 
@@ -27,8 +27,6 @@ Array Iteration:
 
 Best Example for practising:
 ----------------------------
-
-
 
 //checking duplicate and uniques numbers
 

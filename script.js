@@ -1,8 +1,15 @@
-const numbers = [40, 5, 12, 5, 17, 50, 30];
+const numbers = [1, 2, 4, 4, 6, 8, 10, 2, 8, 12, 13, 19];
 
-function myFunction(value, index, array){
-  return value > 60;
+function dupli(value, index){
+  return numbers.indexOf(value) !== index;
 }
 
-const newNumbers = numbers.some(myFunction);
-console.log(numbers.includes(5, 4));
+const duplicates = numbers.filter(dupli);
+console.log(duplicates);
+
+function uniqueFun(value, index){
+  return numbers.indexOf(value) === index;
+}
+
+const uniqueValues = numbers.filter(uniqueFun);
+console.log(uniqueValues);
