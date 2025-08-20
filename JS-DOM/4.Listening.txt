@@ -1,0 +1,40 @@
+Listening to DOM Events:
+------------------------
+
+Some Events in JS DOM:
+----------------------
+
+
+click -> fires when an element is clicked
+
+dblclick -> fires when an element is double-clicked
+
+mousedown -> fires when a mouse button is pressed down on an element
+
+mouseup -> fires when a mouse button is released over an element
+
+mouseenter -> fires when the mouse enters an element (ignores children)
+
+mouseleave -> fires when the mouse leaves an element (ignores children)
+
+mouseover -> fires when the mouse enters an element or its children
+
+mouseout -> fires when the mouse leaves an element or its children
+
+mousemove -> fires when the mouse moves over an element
+
+keydown -> fires when any key is pressed down [input based]
+
+keyup -> fires when a key is released [input based]
+
+keypress -> fires when a character-producing key is pressed (deprecated) [input based]
+
+focus -> fires when an element gains focus [input based]
+
+blur -> fires when an element loses focus [input based]
+
+cut -> fires when user cuts content from an element [input based]
+
+paste -> fires when user pastes content into an element [input based]
+
+submit -> fires when a form is submitted

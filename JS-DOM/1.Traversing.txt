@@ -1,0 +1,18 @@
+Traversing DOM Elements:
+------------------------
+
+ - innerText -> returns/sets the visible text content of an element (respects CSS & layout)
+
+ - textContent -> returns/sets all text content of an element, not tags (ignores CSS & hidden text)
+
+ - innerHTML -> returns/sets the HTML code (including tags) inside an element
+
+ - getElementById() -> returns the element with the specified ID
+
+ - getElementsByClassName() -> returns a live HTMLCollection of elements with the  given class name
+
+ - getElementsByTagName() -> returns a live HTMLCollection of elements with the given tag name
+
+ - querySelector() -> returns the first (only one) element that matches a specified CSS selector
+ 
+ - querySelectorAll() -> returns a static NodeList of all elements that match a specified CSS selector

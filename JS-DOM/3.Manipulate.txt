@@ -1,0 +1,14 @@
+Manipulate the DOM:
+-------------------
+
+createElement(tag) -> creates a new element node
+
+className -> gets/sets the class attribute of an element
+
+setAttribute(name, value) -> adds/changes an attribute of an element
+
+insertBefore(newNode, referenceNode) -> inserts a node before another child in the parent
+
+append(node/text) -> inserts nodes or text at the end of a parent
+
+appendChild(node) -> inserts a node at the end of a parent (only nodes, no text strings)
