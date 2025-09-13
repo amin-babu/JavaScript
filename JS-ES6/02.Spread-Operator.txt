@@ -1,0 +1,4 @@
+The spread operator (...) in JavaScript is used to spread or expand values. It helps to copy arrays or objects, join them together, and pass array items as function arguments.
+
+const numbers = [1, 2, 3];
+const newNumbers = [0, ...numbers, 4]; // [0, 1, 2, 3, 4]

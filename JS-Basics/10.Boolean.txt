@@ -1,7 +1,7 @@
 Booleans Data Type:
 -------------------
 
-JavaScript False Values:
+JavaScript Falsy Values:
 
 1. 0 (zero)
 2. -0 (minus zero)

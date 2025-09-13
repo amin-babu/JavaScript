@@ -1,0 +1,30 @@
+JavaScript Fat Arrow Functions
+
+In forEach Function, this keyword means not its self object. In forEach Function this keyword means Windows or global object. Example below
+
+const javascript = {
+  name : 'javascript',
+  libraries : ['react', 'anguler', 'vue'],
+  printLibraries : function(){
+    this.libraries.forEach(function(e) {
+      console.log(`${this.name} likes ${e}`);
+    })
+  }
+}
+
+javascript.printLibraries();
+
+# arrow function don't know anything about this keyword, which is why now this means its object now. Example below
+
+
+const javascript = {
+  name : 'javascript',
+  libraries : ['react', 'anguler', 'vue'],
+  printLibraries : function(){
+    this.libraries.forEach((e) => {
+      console.log(`${this.name} likes ${e}`);
+    })
+  }
+}
+
+javascript.printLibraries();
