@@ -1,10 +1,12 @@
 Traversing DOM Hierarchy:
 -------------------------
 
-1. children -> returns a live HTMLCollection of all **element children** of a parent (ignores text and comment nodes)
+1. children -> returns a live HTMLCollection of all **element children** of a parent (ignores text and comment nodes). Parent to child.
 
-2. closest(selector) -> returns the nearest ancestor (including itself) that matches the given CSS selector
+2. parentElement -> returns its immidiate parent element
+  
+3. closest(selector) -> closest method returns the nearest ancestor (including itself) that matches the given CSS selector. Child to Parent.
 
-3. nextElementSibling -> returns the **next sibling element** (ignores text and comment nodes) of the specified element
+4. nextElementSibling -> returns the **next sibling element** (ignores text and comment nodes) of the specified element. 
 
-4. previousElementSibling -> returns the **previous sibling element** (ignores text and comment nodes) of the specified element
+5. previousElementSibling -> returns the **previous sibling element** (ignores text and comment nodes) of the specified element

@@ -23,11 +23,11 @@ mouseout -> fires when the mouse leaves an element or its children
 
 mousemove -> fires when the mouse moves over an element
 
-keydown -> fires when any key is pressed down [input based]
+keydown -> fires when any key is pressed down [input based]. All key works
 
 keyup -> fires when a key is released [input based]
 
-keypress -> fires when a character-producing key is pressed (deprecated) [input based]
+keypress -> fires when a character-producing key is pressed (deprecated) [input based]. Only A-Z not key
 
 focus -> fires when an element gains focus [input based]
 
@@ -36,5 +36,7 @@ blur -> fires when an element loses focus [input based]
 cut -> fires when user cuts content from an element [input based]
 
 paste -> fires when user pastes content into an element [input based]
+
+input -> fires when the value of an input changes
 
 submit -> fires when a form is submitted

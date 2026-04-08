@@ -1,11 +1,17 @@
 Traversing DOM Elements:
-------------------------
 
- - innerText -> returns/sets the visible text content of an element (respects CSS & layout)
+ - innerText → returns/sets the visible text content of an element (respects CSS & layout)
+    👉 ব্রাউজারে যেভাবে দেখা যায় ঠিক সেভাবেই টেক্সট দেয়
+    ❗ hidden text (display: none) রিটার্ন করে না
 
- - textContent -> returns/sets all text content of an element, not tags (ignores CSS & hidden text)
+ - textContent → returns/sets all text content (ignores CSS & hidden text)
+    👉 HTML এর ভিতরে যত text আছে সব দেয়
+    ❗ hidden text ও include করে
+    ❗ HTML tag গুলো ignore করে (শুধু text)
 
- - innerHTML -> returns/sets the HTML code (including tags) inside an element
+ - innerHTML → returns/sets the HTML markup (tags + text) inside an element
+    👉 HTML tag সহ পুরো content দেয়
+    ❗ এটা "text আকারে" না — এটা actual HTML string
 
  - getElementById() -> returns the element with the specified ID
 

@@ -36,3 +36,16 @@ Main Differences:
  - Reference variables store a pointer in the stack, which points to data in the heap
  - Primitive data is immutable: Meaning the value cannot be changed; changing a variable means creating new memory
  - Reference data is mutable: Meaning the value inside the heap can be changed without creating new memory
+
+
+ Real Life Analogy:
+ ------------------
+
+  Primitive হলো — তুমি একটা কাগজে ১০ লিখে দিলে।
+  আমি সেটা দেখে আরেকটা কাগজে ১০ লিখলাম।
+  এখন তুমি তোমার কাগজে ২০ লিখলে, আমার কাগজ বদলাবে না।
+
+  Reference হলো — তুমি আমাকে তোমার বাড়ির ঠিকানা দিলে।
+  আমি সেই বাড়িতে যাই।
+  তুমি বাড়ির রং বদলালে — আমি যে বাড়িতে যাই, সেটাও বদলে গেছে।
+  কারণ আমরা একই বাড়ির দিকে তাকাচ্ছি।
